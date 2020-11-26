@@ -22,6 +22,9 @@ class Test{
         System.out.println("size() "+stack.size());
     }
 }
+/**
+* Реализация Stack в Java
+*/
 public class Stack<T> {
    private LinkedList<T> storage = new LinkedList<>();
    public void push(T e){
